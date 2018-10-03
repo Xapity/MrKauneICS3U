@@ -17,6 +17,8 @@ public class WaterAndComputerManufacturing {
         int num;//declaring variables
         final double GALLONS = 1.5;
         double ans;
+        
+        
         System.out.println("How many computer monitor combos do you have?");//intro line
         num=keyedInput.nextInt();//reads the inputted line
         ans=num*GALLONS;//answer equation
